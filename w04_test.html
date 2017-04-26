@@ -1,0 +1,40 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <script src = "http://mrdoob.github.io/three.js/build/three.min.js"></script>
+    <script>
+      var scene = new THREE.Scene();
+
+      var left = 100;
+      var right = 100;
+      var top = 100;
+      var bottom = 100;
+      var near = 10;
+      var far = 10;
+      
+      var camera = new THREE.OrthographicCamera(
+      left,
+      right,
+      top,
+      bottom,
+      near,
+      far
+      );
+
+      var x = 10;
+      var y = 5;
+      var z = 5;
+      
+      camera.position.set( x, y, z );
+
+      scene.add( camera );
+
+      var light = new THREE.PointLight( 0xffffff);
+      light.position.set( 1, 1, 1 );
+      scene.add( light );
+
+      
+    </script> 
+  </body>
+</html>

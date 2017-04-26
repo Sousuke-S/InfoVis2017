@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <title>W06: Task 01</title>
+  </head>
+  <body>
+    <script src=""></script>
+    <script src="main0601.js"></script>
+    <script>
+      main();
+    </script>
+  </body>
+</html>
